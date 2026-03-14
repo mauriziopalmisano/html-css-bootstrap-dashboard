@@ -57,7 +57,7 @@
                             data-bs-target="#nuovo-libro" aria-controls="offcanvasExample">
                             Aggiungi Libro
                         </button>
-                        <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="nuovo-libro" data-bs-backdrop="static">
+                        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="nuovo-libro" data-bs-backdrop="static">
                             <div class="offcanvas-header bg-dark">
                                 <div class="d-flex column-gap-2">
                                     <img src="./img/duck.png" alt="Logo" class="header-logo">
@@ -103,13 +103,12 @@
                                                     <option value="not-spec">Non specificare</option>
                                                 </select>
                                             </div>
-                                            <div class="col-12 col-lg-4">
-                                                <label for="anno" class="form-label fs-5 fw-medium">Anno di
-                                                    Pubblicazione</label>
+                                            <div class="col-12 col-lg-5">
+                                                <label for="anno" class="form-label fs-5 fw-medium">Anno di Pubblicazione</label>
                                                 <input required type="number" class="form-control form-control-lg"
                                                     id="anno" placeholder="Inserisci l'anno" min="1450" max="2026">
                                             </div>
-                                            <div class="col-12 col-lg-4">
+                                            <div class="col-12 col-lg-3">
                                                 <label for="isbn" class="form-label fs-5 fw-medium">ISBN#</label>
                                                 <input required type="text" id="isbn"
                                                     class="form-control form-control-lg"
