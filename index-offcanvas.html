@@ -63,7 +63,7 @@
                                     <img src="./img/duck.png" alt="Logo" class="header-logo">
                                     <h3 class="offcanvas-title text-white" id="titolo-canvas">Nuovo libro</h3>
                                 </div>
-                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                <button type="button" class="btn-close btn-close-white\\" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
@@ -95,9 +95,9 @@
                                             </div>
                                             <div class="col-12 col-lg-4">
                                                 <label for="genere" class="form-label fs-5 fw-medium">Genere</label>
-                                                <select class="form-select form-select-lg"
-                                                    aria-label="selezione del genere autore" id="genere" disabled>
-                                                    <option selected>Scegli il genere</option>
+                                                <select required class="form-select form-select-lg"
+                                                    aria-label="selezione del genere autore" id="genere">
+                                                    <option disabled value="" selected>Scegli il genere</option>
                                                     <option value="Man">Uomo</option>
                                                     <option value="Woman">Donna</option>
                                                     <option value="not-spec">Non specificare</option>
